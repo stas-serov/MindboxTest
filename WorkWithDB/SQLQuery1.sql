@@ -1,0 +1,16 @@
+﻿insert into Goods (ID, name) values (1, 'milk')
+insert into Goods (ID, name) values (2, 'bread')
+insert into Goods (ID, name) values (3, 'hanger')
+insert into Goods (ID, name) values (4, 'knife')
+
+insert into Category (ID, name) values (1, 'house')
+insert into Category (ID, name) values (2, 'food')
+insert into Category (ID, name) values (3, 'kitchen')
+insert into Category (ID, name) values (4, 'sourFood')
+
+insert into GoodsCategory (GoodsID, CategoryID) values (1, 3)
+insert into GoodsCategory (GoodsID, CategoryID) values (1, 4)
+insert into GoodsCategory (GoodsID, CategoryID) values (2, 2)
+insert into GoodsCategory (GoodsID, CategoryID) values (2, 3)
+insert into GoodsCategory (GoodsID, CategoryID) values (3, null)
+insert into GoodsCategory (GoodsID, CategoryID) values (4)
